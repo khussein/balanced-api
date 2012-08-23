@@ -6,8 +6,7 @@
 	- id
 	- bank_account
 	- amount
-	- available
-	- rejected
+	- status
 
 
 ### Bank Account
@@ -48,8 +47,8 @@
 			"type": "checking"
 		}
 		"amount": 1716,
-		"available": null,
-		"rejected": null
+		"status": "pending",
+		"status_updated_at": 1345567104
 	}
 
 ### completed
@@ -65,8 +64,8 @@
 			"type": "checking"
 		}
 		"amount": 1716,
-		"available": 1345567104,
-		"rejected": null
+		"status": "available",
+		"status_updated_at": 1345567104
 	}
 
 ### rejected
@@ -82,6 +81,6 @@
 			"type": "checking"
 		}
 		"amount": 1716,
-		"available": null,
-		"rejected": 1345567104
+		"status": "rejected",
+		"status_updated_at": 1345567104
 	}
